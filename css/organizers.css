@@ -1,0 +1,47 @@
+.organizers {
+  background: #03A9F4;
+  color: #fff;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.organizers:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.organizers header h1 {
+  font-size: 3em;
+  font-weight: 300;
+}
+
+.organizers .organizer {
+  width: 49%;
+  float: left;
+  margin: 15px 0 15px 2%;
+}
+
+.organizers .organizer:nth-of-type(2n+1) {
+  margin-left: 0;
+}
+
+.organizers .organizer .organizer-name {
+  font-weight: 100;
+  font-size: 1.25em;
+  margin-top: -5px;
+}
+
+.organizers .organizer .social-media {
+  width: 125px;
+  display: inline-block;
+}
+
+.organizers .organizer .social-media .icon {
+  width: 32%;
+  float: left;
+}
+
+.organizers .organizer .social-media .email, .organizers .organizer .social-media .google-plus {
+  margin-left: 2%;
+}

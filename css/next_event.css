@@ -1,0 +1,88 @@
+.next-event {
+  display: table;
+  width: 100%;
+  background: #8BC34A;
+  color: #fff;
+  padding: 5% 0;
+  position: relative;
+}
+
+.next-event .next-event-img, .next-event .next-event-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.next-event .next-event-img {
+  width: 25%;
+}
+
+.next-event .next-event-img img {
+  width: 80%;
+  min-width: 62.5px;
+  max-width: 250px;
+}
+
+.next-event .next-event-content {
+  width: 75%;
+}
+
+.next-event .next-event-content header h1 {
+  font-size: 3em;
+}
+
+.next-event .next-event-content header h1, .next-event .next-event-content header h2, .next-event .next-event-content header .next-event-date {
+  font-weight: 300;
+}
+
+.next-event .next-event-content header .next-event-date {
+  font-size: 1.5em;
+  display: none;
+}
+
+.next-event .next-event-content header .next-event-group {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.next-event .next-event-content .next-event-btn {
+  margin: 1em 0 2em 0;
+  text-align: left;
+}
+
+.next-event .next-event-content .next-event-btn a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  background: #fff;
+  padding: 2% 10%;
+  border-radius: 0.1em;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.next-event .next-event-content footer {
+  text-align: right;
+}
+
+.next-event .next-event-content footer address {
+  text-align: left;
+}
+
+.next-event .next-event-content footer address p {
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.2em;
+  line-height: 0.3em;
+}
+
+.next-event .next-event-content footer address .google-maps {
+  color: #fff;
+  font-weight: 100;
+}
+
+.next-event .next-event-content footer .previous-events {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: 100;
+}

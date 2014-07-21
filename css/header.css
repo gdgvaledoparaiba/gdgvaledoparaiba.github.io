@@ -1,0 +1,51 @@
+.main-header {
+  display: table;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+}
+
+.main-header .content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.main-header .logo, .main-header .menu {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.main-header .logo {
+  width: 25%;
+  opacity: 0;
+}
+
+.main-header .logo img {
+  width: 100%;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+.main-header .menu {
+  width: 75%;
+  text-align: right;
+}
+
+.main-header .menu ul > li {
+  display: inline-block;
+}
+
+.main-header .menu ul > li:nth-of-type(1n+2) > a {
+  margin-left: 30px;
+}
+
+.main-header .menu ul > li.active a {
+  border-bottom: solid 1px #333;
+}
+
+.main-header .menu ul > li > a {
+  color: #000;
+  text-decoration: none;
+  padding: 8px 0;
+}

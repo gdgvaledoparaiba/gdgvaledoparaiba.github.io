@@ -1,0 +1,101 @@
+@media(min-width: 1200px) {
+  html, body {
+    font-size: 16px;
+  }
+
+  div.content {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  section.organizers .organizer {
+    width: 24%;
+    margin: 15px 0 15px 1.33%;
+  }
+
+  section.organizers .organizer:nth-of-type(4n+1) {
+    margin-left: 0;
+  }
+}
+
+@media(min-width: 1024px) and (max-width: 1199px) {
+  html, body {
+    font-size: 15px;
+  }
+
+  div.content {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  section.organizers .organizer {
+    width: 24%;
+    margin: 15px 0 15px 1.33%;
+  }
+
+  section.organizers .organizer:nth-of-type(4n+1) {
+    margin-left: 0;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1023px) {
+  html, body {
+    font-size: 14px;
+  }
+}
+
+@media(min-width: 481px) and (max-width: 767px) {
+  html, body {
+    font-size: 13px;
+  }
+
+  header.main-header, section.next-event .next-event-img, section.be-a-host .be-a-host-img, section.next-event .next-event-content header .next-event-group {
+    display: none;
+  }
+
+  section.next-event .next-event-content {
+    display: block;
+    width: 100%;
+  }
+
+  section.next-event .next-event-content header .next-event-date {
+    display: block;
+  }
+
+  section.be-a-host .be-a-host-content {
+    display: block;
+    width: 100%;
+  }
+
+  section.be-a-host .be-a-host-content p, section.be-a-host .how-to-help a, section.next-event .next-event-content footer address p, section.next-event .next-event-content footer address .google-maps, section.next-event .next-event-content footer .previous-events, section.organizers .organizer .organizer-name {
+    font-weight: 300;
+  }
+}
+
+@media(max-width: 480px) {
+  html, body {
+    font-size: 12px;
+  }
+
+  header.main-header, section.next-event .next-event-img, section.be-a-host .be-a-host-img, section.next-event .next-event-content header .next-event-group {
+    display: none;
+  }
+
+  section.next-event .next-event-content {
+    display: block;
+    width: 100%;
+  }
+
+  section.next-event .next-event-content header .next-event-date {
+    display: block;
+  }
+
+  section.be-a-host .be-a-host-content {
+    display: block;
+    width: 100%;
+  }
+
+  section.be-a-host .be-a-host-content p, section.be-a-host .how-to-help a, section.next-event .next-event-content footer address p, section.next-event .next-event-content footer address .google-maps, section.next-event .next-event-content footer .previous-events, section.organizers .organizer .organizer-name {
+    font-weight: 300;
+  }
+}
