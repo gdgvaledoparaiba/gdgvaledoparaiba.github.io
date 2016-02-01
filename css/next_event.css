@@ -80,7 +80,7 @@
   font-weight: 100;
 }
 
-.next-event .next-event-content footer .previous-events {
+.next-event .next-event-content a {
   color: #fff;
   text-decoration: none;
   font-size: 1.5em;
