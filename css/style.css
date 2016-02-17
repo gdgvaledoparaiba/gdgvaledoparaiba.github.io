@@ -6,6 +6,10 @@
   height: 80px;
 }
 
+.mdl-layout__header-row .mdl-navigation__link {
+  color: #FFFFFF;
+}
+
 .gdg-header {
   background-image: url("../images/bg-header.png");
   background-repeat: no-repeat;
@@ -14,6 +18,11 @@
   text-align: center;
   padding: 200px 0;
   color: #FFF;
+}
+
+.gdg-header p {
+  font-size: 18px;
+  font-weight: 100;
 }
 
 .gdg-host {
@@ -37,7 +46,7 @@
     display: block !important;
     position: absolute;
     left: calc(50% - 70px);
-    top: 4px;
+    top: 15px;
    }
 
    .mdl-grid {
