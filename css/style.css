@@ -1,0 +1,51 @@
+.mdl-grid {
+  padding: 100px 0;
+}
+
+.mdl-layout__header-row {
+  height: 80px;
+}
+
+.gdg-header {
+  background-image: url("../images/bg-header.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  padding: 200px 0;
+  color: #FFF;
+}
+
+.gdg-host {
+  background-color: #F5F5F5;
+}
+
+.gdg-organizadores {
+  text-align: center;
+}
+
+.gdg-organizadores--social a{
+  padding: 20px 5px 0;
+}
+
+.gdg-centered {
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .mdl-layout-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 4px;
+   }
+
+   .mdl-grid {
+     padding: 30px 0;
+     text-align: center;
+    }
+
+   .gdg-header {
+    padding: 50px 0;
+   }
+}
